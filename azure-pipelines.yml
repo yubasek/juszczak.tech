@@ -6,6 +6,6 @@ pool:
 steps:
 - script: |
     dotnet build ./JuszczakTech.Server/JuszczakTech.Server.csproj --configuration Release
-    dotnet publish ./JuszczakTech.Server/JuszczakTech.Server.csproj --configuration Release --output ../out
+    dotnet publish ./JuszczakTech.Server/JuszczakTech.Server.csproj --configuration Release --output ../out -r linux-arm
     docker build -f Dockerfile -t juszczak.tech .
 

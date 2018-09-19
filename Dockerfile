@@ -3,7 +3,7 @@
 # See http://docs.microsoft.com/azure/devops/pipelines/languages/docker for more information
 
 # Create a container with the compiled asp.net core app
-FROM microsoft/dotnet:2.1-aspnetcore-runtime 
+FROM microsoft/dotnet:2.1-aspnetcore-runtime-bionic-arm32v7
 
 # App listen on port 80
 EXPOSE 80
