@@ -8,4 +8,3 @@ steps:
     dotnet build ./JuszczakTech.Server/JuszczakTech.Server.csproj --configuration Release
     dotnet publish ./JuszczakTech.Server/JuszczakTech.Server.csproj --configuration Release --output ../out
     docker build -f Dockerfile -t juszczak.tech .
-

@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  juszczaktech.server:
+    image: juszczak.tech
+    container: juszczaktech.server
+    build:
+      context: .
+      dockerfile: ./Dockerfile

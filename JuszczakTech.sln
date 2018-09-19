@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuszczakTech.Server", "Jusz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuszczakTech.App", "JuszczakTech.App\JuszczakTech.App.csproj", "{AF9B559B-CB4E-4FC3-BDA0-0449CB08D2B2}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{87349900-DFBB-40A8-B75B-2878E564D3A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipelines", "Pipelines", "{3B679635-61F4-4BE7-B25B-627A3CBF0101}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{AF9B559B-CB4E-4FC3-BDA0-0449CB08D2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF9B559B-CB4E-4FC3-BDA0-0449CB08D2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF9B559B-CB4E-4FC3-BDA0-0449CB08D2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87349900-DFBB-40A8-B75B-2878E564D3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87349900-DFBB-40A8-B75B-2878E564D3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87349900-DFBB-40A8-B75B-2878E564D3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87349900-DFBB-40A8-B75B-2878E564D3A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
