@@ -7,5 +7,8 @@ steps:
 - script: |
     dotnet build ./JuszczakTech.Server/JuszczakTech.Server.csproj --configuration Release
     dotnet publish ./JuszczakTech.Server/JuszczakTech.Server.csproj --configuration Release --output ../out -r linux-arm
-    docker build -f Dockerfile -t juszczak.tech .
-
+    docker build -f Dockerfile -t yubasek/juszczak.tech .
+    docker login -u yubasek -p $pswd
+    docker push yubasek/juszczak.tech
+  env:
+    pswd: $(dockerPassword)
